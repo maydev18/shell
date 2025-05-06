@@ -67,3 +67,10 @@ void tokenize(char* input , char* args[]){
     }
     args[k] = NULL;
 }
+void free_mem(char* args[]){
+    int j = 0;
+    while(args[j]){
+        free(args[j]);
+        j++;
+    }
+}
