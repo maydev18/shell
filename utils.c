@@ -3,13 +3,20 @@
 #include <string.h>
 #include <unistd.h>
 #include "utils.h"
+#include "colors.h"
+
+/**
+ * @file utils.c
+ * @brief This file contains the definitions of functions in `utils.h` file
+ */
 
 int is_space(char c){
     return (c == ' ' || c == '\t' || c == '\n');
 }
 void Getcwd(char* buffer , size_t size){
+    //uses getcwd system call to find the cwd
     if(getcwd(buffer , size) == NULL){
-        perror("CWD");
+        perror(COLOR_RED "CWD");
         exit(0);
     }
 }
@@ -17,6 +24,7 @@ void trim(char* input){
     char* start = input;
     char* end;
 
+    //Finding the correct start position
     while(is_space(*start)){
         start++;
     }
@@ -25,11 +33,12 @@ void trim(char* input){
         input[0] = '\0';
         return;
     }
-    //move end to last non non-whitespace character
     end = start + strlen(start) - 1;
+    //move end to last non non-whitespace character
     while(end > start && is_space(*end)){
         end--;
     }
+    //end the string
     *(end+1) = '\0';
     //move the string to beginning
     if(start != input){
@@ -41,7 +50,8 @@ void trim(char* input){
     }
 }
 void tokenize(char* input , char* args[]){
-    char tmp[100];
+    //each token is assumed to be of maximum 200 charcters long
+    char tmp[MAX_TOKEN_LEN];
     int i = 0 , j = 0 , k = 0;
     while(input[j] != '\0'){
         if(is_space(input[j])){
@@ -71,6 +81,7 @@ void free_mem(char* args[]){
     int j = 0;
     while(args[j]){
         free(args[j]);
+        args[j] = NULL;
         j++;
     }
 }

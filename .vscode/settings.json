@@ -4,6 +4,8 @@
         "shell.h": "c",
         "stdio.h": "c",
         "unistd.h": "c",
-        "fcntl.h": "c"
+        "fcntl.h": "c",
+        "cstdlib": "c",
+        "termios.h": "c"
     }
 }
