@@ -91,7 +91,7 @@ $ sleep 5 &
 ```
 ## Code Structure
 ```
-
+├── docs/ // Document Folder
 ├── main.c // Entry point
 ├── shell.h // Header file for shell
 ├── shell.c // Contains definitions of functions
@@ -99,11 +99,17 @@ $ sleep 5 &
 ├── Utils.c //contains definitions of utility functions
 ├── colors.h //contains ANSI standard escape sequences for dcolors
 ├── Makefile // Build automation
+├── doxyfile //doxyfile for docs generation
+├── input.txt // A sample input file for some commands
 └── README.md
 ```
-## Documentation
 
-All functions are documented with inline comments. Please refer to the `.c` and `.h` files for detailed explanations.
+## Documentation
+[View Documentation](https://maydev18.github.io/shell/)
+
+All major functions are documented with inline comments.  
+For deeper technical insights, explore the `.c` and `.h` files directly.
+
 
 ## Future Improvements
 
