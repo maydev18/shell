@@ -1,0 +1,5 @@
+<map id="tokenize" name="tokenize">
+<area shape="rect" id="Node000001" title="It generates token from the given input string and stores them in args;." alt="" coords="5,5,83,31"/>
+<area shape="rect" id="Node000002" href="$utils_8c.html#a8701968ceb20a387aa8bfc7d411f6e07" title="It tells whether the given character is a space/newline/tab." alt="" coords="131,5,209,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,15,117,15,117,21,83,21"/>
+</map>

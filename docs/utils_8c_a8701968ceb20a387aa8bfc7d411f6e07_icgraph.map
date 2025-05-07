@@ -1,0 +1,12 @@
+<map id="is_space" name="is_space">
+<area shape="rect" id="Node000001" title="It tells whether the given character is a space/newline/tab." alt="" coords="396,31,475,56"/>
+<area shape="rect" id="Node000002" href="$utils_8c.html#a381d2d6a780d31f8f912eaccc2df9889" title="It generates token from the given input string and stores them in args;." alt="" coords="271,5,348,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="382,35,348,28,349,23,383,30"/>
+<area shape="rect" id="Node000005" href="$utils_8c.html#a0268c75a0ce2925365247fb5840392d2" title="It removes all types of white spaces and newline characters from the beginning and ending of the give..." alt="" coords="285,55,334,80"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="383,56,335,65,334,60,382,51"/>
+<area shape="rect" id="Node000003" href="$shell_8c.html#a27780512afe9d8efd2384904fbbc70fa" title="Takes the raw command entered by the user and runs it." alt="" coords="108,31,223,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="258,30,223,36,223,31,257,24"/>
+<area shape="rect" id="Node000004" href="$main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="The driver function, which runs an infinite loop, to take input from the user and pass the input to t..." alt="" coords="5,31,60,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="94,46,60,46,60,41,94,41"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="271,64,223,56,223,50,272,58"/>
+</map>

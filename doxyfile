@@ -1,0 +1,42 @@
+# Project Info
+PROJECT_NAME           = "Custom Shell"
+PROJECT_BRIEF          = "A mini shell implementation in C"
+OUTPUT_DIRECTORY       = docs
+
+# Input
+INPUT                  = .
+RECURSIVE              = NO
+FILE_PATTERNS          = *.c *.h
+
+# Extract everything
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+
+# Comment Style
+JAVADOC_AUTOBRIEF      = YES
+MULTILINE_CPP_IS_BRIEF = YES
+
+# Output Formats
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+HTML_OUTPUT            = html
+GENERATE_TREEVIEW      = YES
+
+# Beautification
+GENERATE_DEPRECATED    = YES
+SORT_MEMBER_DOCS       = YES
+SHOW_USED_FILES        = YES
+
+# Optional: Custom styling (e.g., doxygen-awesome)
+HTML_EXTRA_STYLESHEET  = doxygen-awesome.css
+
+# Dependency graph generator
+HAVE_DOT               = YES
+DOT_PATH               =            # leave empty if dot is in PATH
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+DOT_IMAGE_FORMAT       = svg
+GENERATE_GRAPHVIZ      = YES
+INCLUDE_GRAPH          = YES
+INCLUDED_BY_GRAPH      = YES

@@ -1,0 +1,22 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title="The driver function, which runs an infinite loop, to take input from the user and pass the input to t..." alt="" coords="5,55,60,80"/>
+<area shape="rect" id="Node000002" href="$utils_8c.html#a9b632b4b25d9b0091d8747fed1e8ef55" title="It tells the current working directory." alt="" coords="130,5,201,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="59,55,117,33,118,38,61,60"/>
+<area shape="rect" id="Node000003" href="$main_8c.html#a8bfc90b3fb9344e9caafec953baacc0b" title="A handler function to handle ctrl+c signal." alt="" coords="111,55,220,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="60,65,97,65,97,70,60,70"/>
+<area shape="rect" id="Node000004" href="$shell_8c.html#a27780512afe9d8efd2384904fbbc70fa" title="Takes the raw command entered by the user and runs it." alt="" coords="108,104,223,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="61,75,118,97,117,102,59,80"/>
+<area shape="rect" id="Node000005" href="$utils_8c.html#a0d6ec43109cc87bacb796aa7309d6db8" title="It frees up memory taken up by args." alt="" coords="315,29,405,55"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="195,101,221,89,270,64,301,53,303,58,272,68,224,94,197,106"/>
+<area shape="rect" id="Node000006" href="$shell_8c.html#a7d5278c65a2d89f5fbda002a35928428" title="Executes the command being made by create_command_for_pipe()" alt="" coords="271,79,449,104"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="222,107,257,102,257,107,223,112"/>
+<area shape="rect" id="Node000008" href="$utils_8c.html#a381d2d6a780d31f8f912eaccc2df9889" title="It generates token from the given input string and stores them in args;." alt="" coords="321,128,399,153"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="223,121,308,132,307,137,222,126"/>
+<area shape="rect" id="Node000010" href="$utils_8c.html#a0268c75a0ce2925365247fb5840392d2" title="It removes all types of white spaces and newline characters from the beginning and ending of the give..." alt="" coords="335,177,385,203"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="193,127,272,162,323,178,321,183,270,167,190,132"/>
+<area shape="rect" id="Node000007" href="$shell_8c.html#aa36f73a456b07e134fc6439d798511cc" title="Creates a command for the pipeline operator (|) from the provided arguments." alt="" coords="497,79,692,104"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="450,89,484,89,484,94,450,94"/>
+<area shape="rect" id="Node000009" href="$utils_8c.html#a8701968ceb20a387aa8bfc7d411f6e07" title="It tells whether the given character is a space/newline/tab." alt="" coords="555,152,634,177"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="399,142,542,157,542,162,399,147"/>
+<area shape="poly" id="edge10_Node000010_Node000009" title=" " alt="" coords="385,185,541,168,542,173,385,190"/>
+</map>
