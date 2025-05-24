@@ -42,7 +42,7 @@ $> make
 ```
 - Option2
 ```bash
-$> gcc main.c shell.c utils.c -o mysh
+$> gcc main.c shell.c utils.c -o myshell
 ```
   
 
