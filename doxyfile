@@ -20,7 +20,7 @@ MULTILINE_CPP_IS_BRIEF = YES
 # Output Formats
 GENERATE_HTML          = YES
 GENERATE_LATEX         = NO
-HTML_OUTPUT            = html
+HTML_OUTPUT            = .
 GENERATE_TREEVIEW      = YES
 
 # Beautification
