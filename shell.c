@@ -9,6 +9,11 @@
 #include "colors.h"
 
 /**
+ * @file shell.c
+ * @brief This file contains the definitions of functions in `shell.h` file, and also include two helper functions which are internally used by `run_command()`
+ */
+
+/**
  * @brief Creates a command for the pipeline operator (`|`) from the provided arguments.
  * 
  * This function processes the arguments and separates a command to be executed 

@@ -42,7 +42,7 @@ $> make
 ```
 - Option2
 ```bash
-$> gcc main.c shell.c utils.c -o mysh
+$> gcc main.c shell.c utils.c -o myshell
 ```
   
 
@@ -97,7 +97,7 @@ $ sleep 5 &
 ├── shell.c // Contains definitions of functions
 ├── Utils.h //Header file for utility functions
 ├── Utils.c //contains definitions of utility functions
-├── colors.h //contains ANSI standard escape sequences for dcolors
+├── colors.h //contains ANSI standard escape sequences for colors
 ├── Makefile // Build automation
 ├── doxyfile //doxyfile for docs generation
 ├── input.txt // A sample input file for some commands

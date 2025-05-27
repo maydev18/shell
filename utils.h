@@ -7,6 +7,15 @@
  *
  */
 
+/**
+ * @brief It tells the current working directory
+ * @param buffer    to hold the current working directory string
+ * @param size      tells the size of the buffer (max = 1024)
+ * 
+ * @note Modifies buffer to point to the cwd
+ */
+
+void Getcwd(char* buffer , size_t size);
 
 /**
  * @brief It tells whether the given character is a space/newline/tab
