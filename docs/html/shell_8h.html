@@ -119,9 +119,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a27780512afe9d8efd2384904fbbc70fa" id="r_a27780512afe9d8efd2384904fbbc70fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="shell_8h.html#a27780512afe9d8efd2384904fbbc70fa">run_command</a> (char *input)</td></tr>
 <tr class="memdesc:a27780512afe9d8efd2384904fbbc70fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs the command being provided to it by the user.  <br /></td></tr>
 <tr class="separator:a27780512afe9d8efd2384904fbbc70fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b632b4b25d9b0091d8747fed1e8ef55" id="r_a9b632b4b25d9b0091d8747fed1e8ef55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="shell_8h.html#a9b632b4b25d9b0091d8747fed1e8ef55">Getcwd</a> (char *buffer, size_t size)</td></tr>
-<tr class="memdesc:a9b632b4b25d9b0091d8747fed1e8ef55"><td class="mdescLeft">&#160;</td><td class="mdescRight">It tells the current working directory.  <br /></td></tr>
-<tr class="separator:a9b632b4b25d9b0091d8747fed1e8ef55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This file contains the declarations of functions for implementing the custom shell. </p>
@@ -155,49 +152,6 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a9b632b4b25d9b0091d8747fed1e8ef55" name="a9b632b4b25d9b0091d8747fed1e8ef55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b632b4b25d9b0091d8747fed1e8ef55">&#9670;&#160;</a></span>Getcwd()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Getcwd </td>
-          <td>(</td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>buffer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>size</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>It tells the current working directory. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">buffer</td><td>to hold the current working directory string </td></tr>
-    <tr><td class="paramname">size</td><td>tells the size of the buffer (max = 1024)</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>Modifies buffer to point to the cwd </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="shell_8h_a9b632b4b25d9b0091d8747fed1e8ef55_icgraph.svg" width="184" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
 <a id="a27780512afe9d8efd2384904fbbc70fa" name="a27780512afe9d8efd2384904fbbc70fa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a27780512afe9d8efd2384904fbbc70fa">&#9670;&#160;</a></span>run_command()</h2>
 
